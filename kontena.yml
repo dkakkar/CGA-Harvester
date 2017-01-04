@@ -3,7 +3,7 @@ version: '2'
 name: harvester
 services:
   cga:
-    image: devikakakkar29/cga-harvester
+    image: harvardcga/cga-harvester
     external_links:
       - kafka-kafka
     environment:
