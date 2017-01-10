@@ -7,8 +7,8 @@ services:
     external_links:
       - kafka-kafka
     environment:
-      TWEET_TOPIC: CGATweets
-      KAFKA_HOST_PORT: kafka-kafka:9092
+      TWEET_TOPIC: CGATweets2
+      KAFKA_HOST_PORT: kafka-kafka-1:9092,kafka-kafka-2:9092
       COMPRESSION_TYPE: lz4
       ACKS: 1
       RETRIES: 30
